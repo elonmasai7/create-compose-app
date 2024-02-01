@@ -175,3 +175,15 @@ class Corvette(
     }
 
 }
+//fun main() {
+    val corvette = Corvette(
+        githubRepoUrl = "https://github.com/theapache64/compose-desktop-template"
+    )
+
+    val replaceMap = mapOf(
+        "old_value" to "new_value"
+    )
+
+    corvette.start(replaceMap)
+}
+
